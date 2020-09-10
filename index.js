@@ -53,6 +53,7 @@ For example, burger.discount("teacher") would return 13.5 and burger.discount("p
 
 
 console.log(burger.discount("student"));
+console.log(burger.discount("teacher"));
 console.log(burger.discount("public")); 
 
 
@@ -145,6 +146,7 @@ function getLastReview(arr) {
   } 
 
   console.log(getLastReview(reviews)); 
+
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
 /** STRETCH 1: Write a function called `getReviewByRating` that returns an array containing all reviews in a certain range. Your function should accept: 
